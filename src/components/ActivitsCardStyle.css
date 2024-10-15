@@ -15,7 +15,7 @@
   margin-left: 18px;
 }
 
-.image-wrapper {
+.image-wrapper1 {
   display: flex;
   justify-content: center;
   gap: 15px; 
@@ -33,7 +33,7 @@
   height: 200px;  */
   object-fit: cover;
   box-shadow: 5px 8px 10px rgba(19, 19, 19, 0.2);
-  aspect-ratio: 8/5;
+  aspect-ratio: 10/6;
 
 }
 
@@ -57,12 +57,12 @@
 }
 
 @media (max-width: 768px) {
-  .image-wrapper {
+  .image-wrapper1 {
     flex-direction: column;
   }
 
   .image-item img {
-    width: 100%;
+    width: 150%;
     height: auto;
   }
 

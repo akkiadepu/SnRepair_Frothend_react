@@ -61,9 +61,9 @@ function ActivitsCardComponent() {
 </div> */}
 <div className="project-container">
       {activities.map((activity, index) => (
-        <div key={index} className="project">
+        <div key={index} className="project1">
           <h2>{activity.projectTitle}</h2>
-          <div className="image-wrapper">
+          <div className="image-wrapper1">
             <div className="image-item">
               <AsyncImage fileName={activity.beforeImageName} fetchImage={fetchImage} />
               <span className="label">before</span>

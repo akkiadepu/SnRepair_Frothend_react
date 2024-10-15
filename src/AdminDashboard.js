@@ -193,7 +193,7 @@ function AdminDashboard() {
                         <AsyncImage
                           fileName={activity.afterImageName}
                           fetchImage={fetchImage}
-                          className="img-fluid"
+                           className="img-fluid"
                         />
                       </div>
                     </td>
@@ -226,7 +226,7 @@ function AsyncImage({ fileName, fetchImage }) {
     loadImage();
   }, [fileName, fetchImage]);
 
-  return imageSrc ? <img src={imageSrc} alt="Project Image" /> : <p>Loading...</p>;
+  return imageSrc ? <img src={imageSrc} alt="Project Image"  className="one" /> : <p>Loading...</p>;
 }
 
 export default AdminDashboard;

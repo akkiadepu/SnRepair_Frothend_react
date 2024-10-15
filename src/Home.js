@@ -10,7 +10,6 @@ import HomeActivitsComponent from './components/HomeActivitsComponent';
 
 function Home() {
   return (
-    
     <div>
           <Header/>
          <section id="hero" className="hero">
@@ -134,7 +133,7 @@ function Home() {
             </div>
         </div>
         {/* <button className="btn btn-primary mt-4" href="/services">Explore More</button> */}
-        <a href="/services" className="btn btn-primary mt-4">Go somewhere</a>
+        <a href="/services" className="btn btn-danger mt-4 p-3">Go somewhere</a>
     </div>
 </section>
 

@@ -82,7 +82,7 @@ function HomeActivitsComponent() {
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
             {activities.map((activity, index) => (
                 <div className="col" key={index}>
-                    <div className="card h-100" style={{ width: '20rem', height: '24rem' }}> {/* Larger width and height for bigger screens */}
+                    <div className="card h-100" style={{ width: '18rem'}}> {/* Larger width and height for bigger screens */}
                         <div className="ratio ratio-1x1">
                             <AsyncImage 
                                 fileName={activity.afterImageName} 
@@ -94,7 +94,7 @@ function HomeActivitsComponent() {
                         <div className="card-body">
                             <h5 className="card-title">{activity.projectTitle}</h5>
                             <p className="card-text">{activity.description}</p>
-                            <Link to="/activities" className="btn btn-primary btn-sm" style={{padding:"10px"}}>Click Here</Link>
+                            <Link to="/activities" className="btn btn-danger btn-sm" style={{padding:"10px"}}>Click Here</Link>
                         </div>
                     </div>
                 </div>
