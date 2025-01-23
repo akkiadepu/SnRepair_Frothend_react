@@ -96,6 +96,13 @@ nav ul li a {
     margin-right: 10px;
 }
 
+@media (min-width: 1200px) {
+    .custom-card-lg {
+      width: 18rem;  /* Increase card width for large devices */
+      height: 21rem; /* Increase card height for large devices */
+    }
+  }
+
 /* .services {
     background: white;
     padding: 60px 20px;

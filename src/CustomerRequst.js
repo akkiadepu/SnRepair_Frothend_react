@@ -14,7 +14,7 @@ function CustomerRequst() {
         .catch(error => {
             console.error('Error fetching the customer requests:', error);
         });
-}, []); // Empty dependency array to ensure this runs only once on mount
+}, []); 
 
 return (
     <div>

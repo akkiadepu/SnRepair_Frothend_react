@@ -63,7 +63,6 @@ function RequestForm() {
   
     return (
         <div>
-                lkfdhfsdliuhglifdukgho 
         <div class="contact-form">
                 <form  onSubmit={handleSubmit}>
                     <label for="name">Name<span>*</span></label>
@@ -77,10 +76,10 @@ function RequestForm() {
                     {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
                     
                     <label for="vehicle-model">Vehicle Model</label>
-                    <input type="text" id="vehicle-model" name="vehicleModel" value={formData.vehicleModel} onChange={handleChange} />
+                    <input type="text" id="vehicle-model" name="vehicleModel" value={formData.vehicleModel} onChange={handleChange} required/>
                     
                     <label for="address">Address</label>
-                    <input type="text" id="address" name="address" value={formData.address} onChange={handleChange}/>
+                    <input type="text" id="address" name="address" value={formData.address} onChange={handleChange} required/>
                     
                     <label for="message">Your Message</label>
                     <textarea id="message" name="yourMessage" rows="4" value={formData.yourMessage} onChange={handleChange} required></textarea>

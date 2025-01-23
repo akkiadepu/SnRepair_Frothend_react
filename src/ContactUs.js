@@ -16,7 +16,7 @@ function ContactUs() {
             <div class="contact-text">
                 <h1>Contact</h1>
                 <p>Feel free to contact us for any questions and doubts</p>
-                <p>Sagittis, faucibus nibh sed rhoncus lacus, quis eget tristique purus faucibus orci commodo.</p>
+                <p>At SN Auto Enterprises, your satisfaction is our top priority. Our dedicated team is always ready to assist with any questions or concerns you may have feel free to reach out!</p>
               
               <p> KEEP IN TOUCH</p>
                 <div class="social-icons">
@@ -25,30 +25,6 @@ function ContactUs() {
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-            {/* <div class="contact-form">
-                <form action="#" method="post">
-                    <label for="name">Name<span>*</span></label>
-                    <input type="text" id="name" name="name" required/>
-                    
-                    <label for="email">Email<span>*</span></label>
-                    <input type="email" id="email" name="email" required/>
-                    
-                    <label for="number">Number<span>*</span></label>
-                    <input type="text" id="number" name="number" required/>
-                    
-                    <label for="vehicle-model">Vehicle Model</label>
-                    <input type="text" id="vehicle-model" name="vehicle-model"/>
-                    
-                    <label for="address">Address</label>
-                    <input type="text" id="address" name="address"/>
-                    
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    
-                    <button type="submit">Send Request</button>
-                </form>
-            </div> */}
-
               <RequestForm/>
 
         </section>

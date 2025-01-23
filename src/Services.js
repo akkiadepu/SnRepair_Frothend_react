@@ -6,9 +6,8 @@ import Footer from './Footer';
 function Services() {
   return (
     <div>
-         {/* <!-- Our Services Section --> */}
+    
 <Header/>
-       
        <div className="servicesPage">
     <section className="our-services">
         <div className="container6">
@@ -33,7 +32,6 @@ function Services() {
         </div>
     </section>
 
-    {/* <!-- Services Details Section --> */}
     <section className="services-details">
         <div className="container7">
             <div className="service-detail">
@@ -85,8 +83,7 @@ function Services() {
             </div>
         </div>
     </section>
-  
-   {/* <!-- Emergency Call Section --> */}
+
     <section class="emergency-call">
         <div class="container8">
             <h1>24/7 Emergency Service</h1>
@@ -94,7 +91,6 @@ function Services() {
         </div>
     </section>
 
-    {/* <!-- Images Section --> */}
     <section class="images-section">
         <div class="container9">
             <div class="image-grid">
